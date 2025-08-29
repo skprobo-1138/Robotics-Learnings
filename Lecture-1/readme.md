@@ -48,3 +48,19 @@ This makes the base install (underlay) available to the shell.
 **Linux (bash)**
 ```bash
 source /opt/ros/humble/setup.bash
+
+
+### Understanding Important `colcon build` Flags
+
+When building your workspace, you can pass extra flags to control *how* colcon builds. Here’s what the common ones mean:
+
+---
+
+#### `--packages-up-to <pkg>`
+- Builds the **target package** you specify *and all of its dependencies*.
+- Skips unrelated packages in the workspace.
+- ✅ Saves a lot of build time if your workspace has many packages.
+- Example:  
+  ```bash
+  colcon build --packages-up-to turtlesim
+
