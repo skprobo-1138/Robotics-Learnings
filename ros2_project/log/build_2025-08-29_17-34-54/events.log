@@ -1,0 +1,309 @@
+[0.000000] (-) TimerEvent: {}
+[0.002444] (-) JobUnselected: {'identifier': 'my_package'}
+[0.004827] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.004922] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.035637] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.049278] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.049427] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'skpro'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/skpro/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/205/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/skpro'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/skpro/Desktop/Robotics Learning/ros2_project/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/205/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/skpro/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/205/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/205/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2377'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe938edb3c41ca29091ea1f68b17b4f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'skpro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'skpro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/skpro-VirtualBox:@/tmp/.ICE-unix/2377,unix/skpro-VirtualBox:/tmp/.ICE-unix/2377'), ('GTK_EXE_PREFIX', '/snap/code/205/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ad1142f_8fc4_4727_815d_e207fc506cd1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/205/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/skpro/snap/code/205/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4A1KC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2f99dd8438.sock'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/skpro/snap/code/205/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe938edb3c41ca29091ea1f68b17b4f'), ('XDG_DATA_DIRS', '/home/skpro/snap/code/205/.local/share:/home/skpro/snap/code/205:/snap/code/205/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099993] (-) TimerEvent: {}
+[0.201658] (-) TimerEvent: {}
+[0.207689] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.304830] (-) TimerEvent: {}
+[0.407020] (-) TimerEvent: {}
+[0.507558] (-) TimerEvent: {}
+[0.512972] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.607692] (-) TimerEvent: {}
+[0.674979] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.688648] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.707886] (-) TimerEvent: {}
+[0.715221] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.765534] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.804500] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.808641] (-) TimerEvent: {}
+[0.909191] (-) TimerEvent: {}
+[0.926942] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.937117] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.010016] (-) TimerEvent: {}
+[1.111983] (-) TimerEvent: {}
+[1.182948] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.213724] (-) TimerEvent: {}
+[1.214805] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.263646] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.289382] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.313850] (-) TimerEvent: {}
+[1.423296] (-) TimerEvent: {}
+[1.524881] (-) TimerEvent: {}
+[1.618234] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.620842] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.624951] (-) TimerEvent: {}
+[1.725743] (-) TimerEvent: {}
+[1.806821] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.810142] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.826666] (-) TimerEvent: {}
+[1.930384] (-) TimerEvent: {}
+[2.032278] (-) TimerEvent: {}
+[2.080782] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.120299] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[2.133225] (-) TimerEvent: {}
+[2.135195] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub\n'}
+[2.227347] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[2.228447] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[2.234360] (-) TimerEvent: {}
+[2.335777] (-) TimerEvent: {}
+[2.442312] (-) TimerEvent: {}
+[2.604779] (-) TimerEvent: {}
+[2.724275] (-) TimerEvent: {}
+[2.827259] (-) TimerEvent: {}
+[2.962668] (-) TimerEvent: {}
+[3.081746] (-) TimerEvent: {}
+[3.182124] (-) TimerEvent: {}
+[3.283205] (-) TimerEvent: {}
+[3.384287] (-) TimerEvent: {}
+[3.485264] (-) TimerEvent: {}
+[3.592650] (-) TimerEvent: {}
+[3.770499] (-) TimerEvent: {}
+[3.901025] (-) TimerEvent: {}
+[4.011800] (-) TimerEvent: {}
+[4.251883] (-) TimerEvent: {}
+[4.415617] (-) TimerEvent: {}
+[4.518933] (-) TimerEvent: {}
+[4.649933] (-) TimerEvent: {}
+[4.856100] (-) TimerEvent: {}
+[4.971799] (-) TimerEvent: {}
+[5.072914] (-) TimerEvent: {}
+[5.222024] (-) TimerEvent: {}
+[5.339672] (-) TimerEvent: {}
+[5.446881] (-) TimerEvent: {}
+[5.549064] (-) TimerEvent: {}
+[5.697139] (-) TimerEvent: {}
+[5.800079] (-) TimerEvent: {}
+[5.993667] (-) TimerEvent: {}
+[6.213944] (-) TimerEvent: {}
+[6.349434] (-) TimerEvent: {}
+[6.477910] (-) TimerEvent: {}
+[6.603996] (-) TimerEvent: {}
+[6.710987] (-) TimerEvent: {}
+[6.830174] (-) TimerEvent: {}
+[6.948532] (-) TimerEvent: {}
+[7.141842] (-) TimerEvent: {}
+[7.447289] (-) TimerEvent: {}
+[7.684509] (-) TimerEvent: {}
+[7.847079] (-) TimerEvent: {}
+[7.967601] (-) TimerEvent: {}
+[8.260323] (-) TimerEvent: {}
+[8.369752] (-) TimerEvent: {}
+[8.509691] (-) TimerEvent: {}
+[8.612820] (-) TimerEvent: {}
+[8.777266] (-) TimerEvent: {}
+[8.890088] (-) TimerEvent: {}
+[8.992678] (-) TimerEvent: {}
+[9.158064] (-) TimerEvent: {}
+[9.397583] (-) TimerEvent: {}
+[9.502775] (-) TimerEvent: {}
+[9.615388] (-) TimerEvent: {}
+[9.725795] (-) TimerEvent: {}
+[9.827947] (-) TimerEvent: {}
+[9.931566] (-) TimerEvent: {}
+[10.043135] (-) TimerEvent: {}
+[10.206154] (-) TimerEvent: {}
+[10.325773] (-) TimerEvent: {}
+[10.428098] (-) TimerEvent: {}
+[10.625827] (-) TimerEvent: {}
+[10.729790] (-) TimerEvent: {}
+[10.840675] (-) TimerEvent: {}
+[10.941422] (-) TimerEvent: {}
+[11.056864] (-) TimerEvent: {}
+[11.184124] (-) TimerEvent: {}
+[11.300236] (-) TimerEvent: {}
+[11.407989] (-) TimerEvent: {}
+[11.525866] (-) TimerEvent: {}
+[11.664592] (-) TimerEvent: {}
+[11.766695] (-) TimerEvent: {}
+[11.869774] (-) TimerEvent: {}
+[11.974552] (-) TimerEvent: {}
+[12.075681] (-) TimerEvent: {}
+[12.197952] (-) TimerEvent: {}
+[12.319690] (-) TimerEvent: {}
+[12.502566] (-) TimerEvent: {}
+[12.784403] (-) TimerEvent: {}
+[13.021699] (-) TimerEvent: {}
+[13.317023] (-) TimerEvent: {}
+[13.417883] (-) TimerEvent: {}
+[13.613014] (-) TimerEvent: {}
+[13.739885] (-) TimerEvent: {}
+[13.867102] (-) TimerEvent: {}
+[14.069866] (-) TimerEvent: {}
+[14.255471] (-) TimerEvent: {}
+[14.455182] (-) TimerEvent: {}
+[14.658008] (-) TimerEvent: {}
+[14.869543] (-) TimerEvent: {}
+[14.983970] (-) TimerEvent: {}
+[15.088179] (-) TimerEvent: {}
+[15.190111] (-) TimerEvent: {}
+[15.326238] (-) TimerEvent: {}
+[15.427305] (-) TimerEvent: {}
+[15.563988] (-) TimerEvent: {}
+[15.707843] (-) TimerEvent: {}
+[15.980934] (-) TimerEvent: {}
+[16.106158] (-) TimerEvent: {}
+[16.213108] (-) TimerEvent: {}
+[16.325912] (-) TimerEvent: {}
+[16.454275] (-) TimerEvent: {}
+[16.582756] (-) TimerEvent: {}
+[16.687776] (-) TimerEvent: {}
+[16.809900] (-) TimerEvent: {}
+[17.042591] (-) TimerEvent: {}
+[17.245783] (-) TimerEvent: {}
+[17.360176] (-) TimerEvent: {}
+[17.461614] (-) TimerEvent: {}
+[17.568988] (-) TimerEvent: {}
+[17.760922] (-) TimerEvent: {}
+[18.161846] (-) TimerEvent: {}
+[18.318768] (-) TimerEvent: {}
+[18.444972] (-) TimerEvent: {}
+[18.660065] (-) TimerEvent: {}
+[18.850298] (-) TimerEvent: {}
+[18.984892] (-) TimerEvent: {}
+[19.375842] (-) TimerEvent: {}
+[19.644616] (-) TimerEvent: {}
+[19.747760] (-) TimerEvent: {}
+[19.860737] (-) TimerEvent: {}
+[20.028030] (-) TimerEvent: {}
+[20.128598] (-) TimerEvent: {}
+[20.297858] (-) TimerEvent: {}
+[20.417685] (-) TimerEvent: {}
+[20.542036] (-) TimerEvent: {}
+[20.670713] (-) TimerEvent: {}
+[20.877668] (-) TimerEvent: {}
+[21.394210] (-) TimerEvent: {}
+[21.722053] (-) TimerEvent: {}
+[21.838708] (-) TimerEvent: {}
+[21.972645] (-) TimerEvent: {}
+[22.109807] (-) TimerEvent: {}
+[22.339246] (-) TimerEvent: {}
+[22.457695] (-) TimerEvent: {}
+[22.566856] (-) TimerEvent: {}
+[22.670243] (-) TimerEvent: {}
+[22.771086] (-) TimerEvent: {}
+[22.875501] (-) TimerEvent: {}
+[22.977744] (-) TimerEvent: {}
+[23.079683] (-) TimerEvent: {}
+[23.181061] (-) TimerEvent: {}
+[23.281613] (-) TimerEvent: {}
+[23.383207] (-) TimerEvent: {}
+[23.490515] (-) TimerEvent: {}
+[23.603746] (-) TimerEvent: {}
+[23.706415] (-) TimerEvent: {}
+[23.809858] (-) TimerEvent: {}
+[23.910836] (-) TimerEvent: {}
+[24.014888] (-) TimerEvent: {}
+[24.116973] (-) TimerEvent: {}
+[24.217916] (-) TimerEvent: {}
+[24.386832] (-) TimerEvent: {}
+[24.718625] (-) TimerEvent: {}
+[24.821206] (-) TimerEvent: {}
+[24.927814] (-) TimerEvent: {}
+[25.029364] (-) TimerEvent: {}
+[25.132052] (-) TimerEvent: {}
+[25.389228] (-) TimerEvent: {}
+[25.501357] (-) TimerEvent: {}
+[25.607680] (-) TimerEvent: {}
+[25.709195] (-) TimerEvent: {}
+[25.892652] (-) TimerEvent: {}
+[26.003222] (-) TimerEvent: {}
+[26.065222] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[26.104434] (-) TimerEvent: {}
+[26.208675] (-) TimerEvent: {}
+[26.309621] (-) TimerEvent: {}
+[26.427631] (-) TimerEvent: {}
+[26.560046] (-) TimerEvent: {}
+[26.666658] (-) TimerEvent: {}
+[26.768025] (-) TimerEvent: {}
+[26.792608] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[26.870011] (-) TimerEvent: {}
+[26.971101] (-) TimerEvent: {}
+[27.074233] (-) TimerEvent: {}
+[27.177695] (-) TimerEvent: {}
+[27.279888] (-) TimerEvent: {}
+[27.380746] (-) TimerEvent: {}
+[27.482234] (-) TimerEvent: {}
+[27.583659] (-) TimerEvent: {}
+[27.684325] (-) TimerEvent: {}
+[27.785663] (-) TimerEvent: {}
+[27.886239] (-) TimerEvent: {}
+[27.987372] (-) TimerEvent: {}
+[28.089566] (-) TimerEvent: {}
+[28.194064] (-) TimerEvent: {}
+[28.336023] (-) TimerEvent: {}
+[28.437655] (-) TimerEvent: {}
+[28.542086] (-) TimerEvent: {}
+[28.643136] (-) TimerEvent: {}
+[28.763680] (-) TimerEvent: {}
+[28.874952] (-) TimerEvent: {}
+[28.976059] (-) TimerEvent: {}
+[29.082816] (-) TimerEvent: {}
+[29.183665] (-) TimerEvent: {}
+[29.284729] (-) TimerEvent: {}
+[29.386240] (-) TimerEvent: {}
+[29.487645] (-) TimerEvent: {}
+[29.593871] (-) TimerEvent: {}
+[29.706884] (-) TimerEvent: {}
+[29.809851] (-) TimerEvent: {}
+[29.915680] (-) TimerEvent: {}
+[30.028659] (-) TimerEvent: {}
+[30.131240] (-) TimerEvent: {}
+[30.232680] (-) TimerEvent: {}
+[30.333617] (-) TimerEvent: {}
+[30.434387] (-) TimerEvent: {}
+[30.536637] (-) TimerEvent: {}
+[30.637380] (-) TimerEvent: {}
+[30.738143] (-) TimerEvent: {}
+[30.839619] (-) TimerEvent: {}
+[30.940868] (-) TimerEvent: {}
+[31.041532] (-) TimerEvent: {}
+[31.142447] (-) TimerEvent: {}
+[31.243774] (-) TimerEvent: {}
+[31.344380] (-) TimerEvent: {}
+[31.444992] (-) TimerEvent: {}
+[31.545595] (-) TimerEvent: {}
+[31.647137] (-) TimerEvent: {}
+[31.748664] (-) TimerEvent: {}
+[31.849637] (-) TimerEvent: {}
+[31.950345] (-) TimerEvent: {}
+[32.002683] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[32.052170] (-) TimerEvent: {}
+[32.153193] (-) TimerEvent: {}
+[32.254347] (-) TimerEvent: {}
+[32.356146] (-) TimerEvent: {}
+[32.457718] (-) TimerEvent: {}
+[32.531126] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[32.558469] (-) TimerEvent: {}
+[32.596660] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[32.601454] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[32.627923] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub'], 'cwd': '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'skpro'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/skpro/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/205/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/skpro'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/skpro/Desktop/Robotics Learning/ros2_project/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/205/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/skpro/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/205/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/205/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2377'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe938edb3c41ca29091ea1f68b17b4f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'skpro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'skpro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/skpro-VirtualBox:@/tmp/.ICE-unix/2377,unix/skpro-VirtualBox:/tmp/.ICE-unix/2377'), ('GTK_EXE_PREFIX', '/snap/code/205/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ad1142f_8fc4_4727_815d_e207fc506cd1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/205/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/skpro/snap/code/205/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4A1KC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2f99dd8438.sock'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/skpro/snap/code/205/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fe938edb3c41ca29091ea1f68b17b4f'), ('XDG_DATA_DIRS', '/home/skpro/snap/code/205/.local/share:/home/skpro/snap/code/205:/snap/code/205/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[32.651029] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.654552] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[32.657704] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[32.657904] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[32.657953] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[32.658649] (-) TimerEvent: {}
+[32.662166] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[32.662453] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[32.664523] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[32.666098] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[32.666388] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[32.667993] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[32.668686] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[32.669813] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[32.669907] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[32.669952] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[32.669993] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[32.670286] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[32.670546] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[32.670685] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[32.670789] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[32.670915] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[32.679062] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[32.758838] (-) TimerEvent: {}
+[32.796409] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[32.798582] (-) EventReactorShutdown: {}

@@ -1,0 +1,51 @@
+[0.050s] Invoking command in '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub -- -j4 -l4
+[0.204s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.508s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.670s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.684s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.710s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.800s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.922s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.933s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.178s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.210s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.259s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.285s] -- Looking for pthread.h
+[1.614s] -- Looking for pthread.h - found
+[1.616s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.804s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.806s] -- Found Threads: TRUE  
+[2.076s] -- Configuring done
+[2.116s] -- Generating done
+[2.130s] -- Build files have been written to: /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub
+[2.223s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.224s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[26.067s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[26.788s] [ 75%] Built target talker
+[31.998s] [100%] [32m[1mLinking CXX executable listener[0m
+[32.526s] [100%] Built target listener
+[32.593s] Invoked command in '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub -- -j4 -l4
+[32.631s] Invoking command in '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub
+[32.646s] -- Install configuration: ""
+[32.650s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/lib/cpp_pubsub/talker
+[32.653s] -- Set runtime path of "/home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[32.653s] -- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/lib/cpp_pubsub/talker
+[32.653s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/lib/cpp_pubsub/listener
+[32.657s] -- Set runtime path of "/home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[32.658s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[32.660s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[32.661s] -- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[32.661s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[32.664s] -- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[32.664s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[32.665s] -- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[32.665s] -- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[32.665s] -- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[32.665s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[32.665s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[32.666s] -- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[32.666s] -- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[32.666s] -- Up-to-date: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[32.666s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[32.675s] Invoked command in '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub

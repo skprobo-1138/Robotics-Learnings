@@ -1,0 +1,47 @@
+[0.062s] Invoking command in '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/skpro/Desktop/Robotics Learning/ros2_project/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub
+[0.502s] -- The C compiler identification is GNU 11.4.0
+[0.730s] -- The CXX compiler identification is GNU 11.4.0
+[0.754s] -- Detecting C compiler ABI info
+[1.029s] -- Detecting C compiler ABI info - done
+[1.035s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.038s] -- Detecting C compile features
+[1.043s] -- Detecting C compile features - done
+[1.043s] -- Detecting CXX compiler ABI info
+[1.253s] -- Detecting CXX compiler ABI info - done
+[1.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.266s] -- Detecting CXX compile features
+[1.266s] -- Detecting CXX compile features - done
+[1.282s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.614s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.735s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.847s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.847s] -- Configured cppcheck include dirs: 
+[1.847s] -- Configured cppcheck exclude dirs and/or files: 
+[1.850s] -- Added test 'lint_cmake' to check CMake code style
+[1.850s] -- Added test 'uncrustify' to check C / C++ code style
+[1.850s] -- Configured uncrustify additional arguments: 
+[1.851s] -- Added test 'xmllint' to check XML markup files
+[1.858s] -- Configuring done
+[1.869s] -- Generating done
+[1.880s] -- Build files have been written to: /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub
+[1.889s] Invoked command in '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/skpro/Desktop/Robotics Learning/ros2_project/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub
+[1.891s] Invoking command in '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub -- -j4 -l4
+[2.057s] Invoked command in '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub -- -j4 -l4
+[2.064s] Invoking command in '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub
+[2.098s] -- Install configuration: ""
+[2.101s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.101s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.104s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.104s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.105s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.105s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.107s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.108s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.108s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.110s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.111s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.113s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.114s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.114s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.119s] -- Installing: /home/skpro/Desktop/Robotics Learning/ros2_project/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.124s] Invoked command in '/home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/skpro/Desktop/Robotics Learning/ros2_project/build/cpp_pubsub
